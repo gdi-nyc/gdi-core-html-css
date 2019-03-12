@@ -1,0 +1,166 @@
+.reveal section img.noborder{
+	border-width: 0;
+	box-shadow: none;
+}
+
+.reveal section img {
+	max-height: 500px;
+	max-width: 80%;
+}
+
+div.halfblock{
+	float: left;
+	width: 45%;
+	text-align: left;
+	margin-right: 5%;
+}
+
+div.left-align{
+	text-align: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.reveal h1 {
+    font-size: 2em;
+}
+
+.reveal h2{
+    font-size: 1.8em;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.flex-column-even{
+    height: 100%;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex-column-even pre{
+    width:100%!important;
+}
+
+.container{
+    margin: 10px!important;
+}
+
+.keyword{
+    color:#4d4d4c!important;
+}
+
+.reveal pre code{
+    max-height: none;
+}
+
+.reveal pre {
+    overflow: auto;
+}
+
+.reveal section img{
+    max-width: 450px;
+}
+
+.smaller{
+    font-size: .75em!important;
+}
+
+.pm-0{
+    padding:0!important;
+    margin:0!important;
+}
+
+.margin-example-container{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px!important;
+}
+
+.margin-example{
+    display:inline!important;
+    width:max-content!important;
+}
+
+
+.main-example, 
+.block-example{
+    padding: 10px!important;
+    text-align: center;
+    width: 200px;
+}
+
+.main-example{
+    background-color: pink;
+    color: darkblue;
+}
+
+.block-example{
+    background-color: black;
+    color: lightblue;
+}
+
+.margin2-example-container{
+    margin-bottom: 20px!important;
+}
+
+code.plaintext .attribute,
+code.plaintext .number,
+code.plaintext .tag,
+code.plaintext .value,
+code.plaintext .class
+{
+    color: #4d4d4c!important;
+}
+
+.special-img{
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.05);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
